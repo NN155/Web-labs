@@ -18,7 +18,7 @@ function createChessboardTable(fcolor, scolor, contents) {
 }
 
 // Приклад виклику функції
-const fcolor = '#ffffff'; // Білий колір
+const fcolor = '#ff0fff'; // Білий колір
 const scolor = '#555555'; // Чорний колір
 const contents = [
     ["A1", "B1", "C1", "D1", "E1", "F1", "G1", "H1"],

@@ -14,6 +14,8 @@ app.get('/', (req, res) => {
 });
 
 
+
+
 app.get('/data', async (req, res) => {
     try {
         const jsonData = await getAllHomes();
@@ -31,6 +33,11 @@ app.post('/add-home', async (req, res) => {
     }
     res.redirect('/');
 });
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
 const PORT = 3000;
 
 app.listen(PORT, () => {

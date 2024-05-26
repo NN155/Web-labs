@@ -1,0 +1,24 @@
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 1000px;
+}
+  
+.card h1 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.card p {
+  margin-bottom: 5px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}

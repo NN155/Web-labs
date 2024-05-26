@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, serif;
+}
+
+.nav-link {
+  color: aquamarine;
+}
+.nav-link:hover {
+  color:rgb(255, 252, 68);
+}
+
+.navbar {
+  padding: 0;
+  height: 61px;
+}
+.navbar-nav .nav-link.active {
+  color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+  width: 35px;
+}
+.navbar-collapse {
+  background-color: rgba(33, 37, 41, 0.5);
+  backdrop-filter: blur(50px);
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar-toggler {
+  background-color: rgb(172, 172, 172);
+}
+
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+      position: absolute;
+  }
+}
+
+/* Стилі для повноекранних пристроїв */
+@media (min-width: 769px) {
+  .navbar-collapse {
+      position: relative;
+  }
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.nav-link.active {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
